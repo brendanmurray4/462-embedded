@@ -1,0 +1,2 @@
+For this lab Nicholas and I worked entirely together. All of the VHDL code was written together with one person writing and the other providing ideas.
+We debugged the code together as well, and I solved our final problem while Nicholas did more extensive testing in Modelsim helping me find it. We did equal work on this lab.
