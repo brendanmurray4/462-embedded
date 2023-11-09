@@ -1,5 +1,0 @@
-ENSC 462 Final Project : Individual Report
-Nicholas Polyzogopoulos
-
-For this project, I developed the I2S receiver, the testbench, and verified it's functionality. I also helped with final integration, including the .xdc file and helping
-with block diagram configuration/debug, etc.

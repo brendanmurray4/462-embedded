@@ -1,6 +1,0 @@
-ENSC 462 Lab 1 : Individual Report
-Nicholas Polyzogopoulos
-
-For this lab, both Brendan and I worked on this lab at the same time. We took turns writing and simulating/synthesizing. 
-At times we both did this work concurrently. Each part of the lab was equally worked on by both members. Brendan did more
- work to figure out the sin formula, and I performed a bit more work to figure out the FSM.

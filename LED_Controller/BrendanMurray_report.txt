@@ -1,4 +1,0 @@
-ENSC 462 Lab 1 Report: Brendan Murray
-Both Nicholas and I completed this lab together in the lab, both outside of lab hours and during. All of the VHDL was written using pair-programming techniques where one
-team member would write code, and the other would be helping brainstorm ideas and spot mistakes. The entire lab was equally contributed to by both team members and we both
-worked together on all of the submitted items.

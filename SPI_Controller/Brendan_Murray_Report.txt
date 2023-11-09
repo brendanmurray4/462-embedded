@@ -1,2 +1,0 @@
-During the completion of lab 3 we worked together to complete all major components of the lab. We worked online on a call together with both of us writing VHDL and testing
-using Modelsim. I was sick for the majority of the time to complete this lab so Nick came into lab one day to ensure code would synthesize. The entire lab was completed equally.

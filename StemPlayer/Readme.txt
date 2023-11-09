@@ -17,8 +17,7 @@ project / <folder>
 		-"\StemPlayer.srcs\constrs_1\imports\Part3" contains our xdc constraints file:
 			-top.xdc
 	
-	-"stemplayer" folder contains our vitis project (application)
-		-/"src" folder contains the source C code for the application
+	-/"src" folder contains the source C code for the application
 			-platform.c and platform.h
 			-platform_config.h
 			-sdCard.c and sdCard.h
@@ -26,7 +25,7 @@ project / <folder>
 
 	-"stemplayer_system" folder contains our vitis project for the platform
 
-	- "i2s" folder contains our i2s controller .vhd file, and a testbench 
+	- "i2s_controller" folder contains our i2s controller .vhd file, and a testbench 
 		for the i2s controller, as well  as modelsim scripts. 
 			- The /"debug" folder contains screenshots of the waveforms.
 			-i2s_audio_interface.vhd
