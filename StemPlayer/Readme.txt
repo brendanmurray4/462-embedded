@@ -23,13 +23,9 @@ project / <folder>
 			-sdCard.c and sdCard.h
 			-StemPlayer.c
 
-	-"stemplayer_system" folder contains our vitis project for the platform
-
 	- "i2s_controller" folder contains our i2s controller .vhd file, and a testbench 
 		for the i2s controller, as well  as modelsim scripts. 
 			- The /"debug" folder contains screenshots of the waveforms.
 			-i2s_audio_interface.vhd
 			-i2s_audio_interface_tb.vhd
 			-run.do and wave.do
-
-	- "wav files" contains our stem .wav files (1.wav, 2.wav, 3.wav, 4.wav)
