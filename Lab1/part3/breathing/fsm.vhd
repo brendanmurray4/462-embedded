@@ -49,44 +49,44 @@ begin
                 state <= decr;
                 addr <= maxaddr;
             else
-				case state is 
-					when decr =>
-						if addr = minaddr then
-							state <= incr;
-                            if pwm_count = maxpwm then
-                                addr <= addr + 1;
-                            else
-                                addr <= addr;
-                            end if;
-						else
-							state <= decr;
-                            if pwm_count = maxpwm then
-                                addr <= addr - 1;
-                            elsif rst = '1' then
-                                addr <= maxaddr;
-                            else
-                                addr <= addr;
-                            end if;
-						end if;
-					when incr =>
-						if addr = maxaddr then
-							state <= decr;
-                            if pwm_count = maxpwm then
-                                addr <= addr - 1;
-                            elsif rst = '1' then
-                                addr <= maxaddr;
-                            else
-                                addr <= addr;
-                            end if;
-						else
-							state <= incr;
-                            if pwm_count = maxpwm then
-                                addr <= addr + 1;
-                            else
-                                addr <= addr;
-                            end if;
-						end if;
-				end case;
+		case state is 
+			when decr =>
+				if addr = minaddr then
+					state <= incr;
+					if pwm_count = maxpwm then
+						addr <= addr + 1;
+					else
+						addr <= addr;
+					end if;
+				else
+					state <= decr;
+			    		if pwm_count = maxpwm then
+						addr <= addr - 1;
+			    		elsif rst = '1' then
+						addr <= maxaddr;
+			    		else
+						addr <= addr;
+			    		end if;
+				end if;
+			when incr =>
+				if addr = maxaddr then
+					state <= decr;
+	    if pwm_count = maxpwm then
+		addr <= addr - 1;
+	    elsif rst = '1' then
+		addr <= maxaddr;
+	    else
+		addr <= addr;
+	    end if;
+				else
+					state <= incr;
+	    if pwm_count = maxpwm then
+		addr <= addr + 1;
+	    else
+		addr <= addr;
+	    end if;
+				end if;
+		end case;
             end if;   
         end if;
     end process;
